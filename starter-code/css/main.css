@@ -1,10 +1,80 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
+
+html  {
+  display: block;
+}
+body  {
+  background-color: #fff;
+  background: #fff url("../images/bgtile.png") repeat-x;
+}
+
+.whole {
+  display: block;
+  margin: auto;
+  width: 80%;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+.phones {
+  width: 50%;
+  float: left;
+  padding-right: 60px;
+}
+
+.phones img{
+  float:right;
+ }
+
+.content {
+  float: right;
+  width: 50%;
+  padding-top: 0px;
+}
+
+.description {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+}
+h2 {
+  color: darkblue;
+}
+ul  {
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  padding: 50px 5px;
+  color: blue;
+
+}
+/*.instagramlogo {
+  position: absolute;
+  right: 395px;
+  top: 90px;
+
+}
+.description {
+  position: absolute;
+  left: 615px;
+  top: 250px;
+}
+.appstore {
+  position: absolute;
+  left: 630px;
+  top: 565px;
+}
+
+h2  {
+  font-size: 27px;
+  margin-top: 0;
+}
+ul {
+  position: absolute;
+  top: 400px;
+  display: inline-block;
+}*/
